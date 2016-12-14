@@ -14,9 +14,6 @@
     margin: auto;
 }
 
-
-
-
 #headerImage{
    position: absolute; 
    top: 200px; 
@@ -218,6 +215,97 @@ footer img{
     list-style: none;
     display: inline;
 }
+
+/*start of contact form */
+
+
+.input-field label {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+ }
+
+ .input-field input[type=text] {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+ }
+
+  .input-field input[type=email] {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+ }
+
+ .input-field input[type=email]:focus + label {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+ }
+   
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #5E3651;
+    box-shadow: 0 1px 0 0 #5E3651;
+    font-family: 'Raleway', sans-serif;
+}
+
+ /* invalid color */
+.input-field input[type=email].invalid {
+    border-bottom: 1px solid #5E3651;
+    box-shadow: 0 1px 0 0 #5E3651;
+    font-family: 'Raleway', sans-serif;
+}
+
+.input-field input[type=email].valid {
+    border-bottom: 1px solid #5E3651;
+    box-shadow: 0 1px 0 0 #5E3651;
+    font-family: 'Raleway', sans-serif;
+}
+
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #5E3651;
+    box-shadow: 0 1px 0 0 #5E3651;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+ /* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #5E3651;
+    box-shadow: 0 1px 0 0 #5E3651;
+    font-family: 'Raleway', sans-serif;
+}
+
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #5E3651;
+    box-shadow: 0 1px 0 0 #5E3651;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn {
+    background-color: #5E3651;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn:active {
+    background-color: #5E3651;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn:hover {
+    background-color: #5E3651;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn:valid {
+    background-color: #5E3651;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*end of contact form style*/
 
 /*back to top code*/
 *, *:after, *:before {
