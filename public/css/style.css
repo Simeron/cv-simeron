@@ -63,6 +63,12 @@
 	display: block;
 }
 
+/*start of skills */
+.skills {
+    display: flex;
+}
+/*end of skills*/
+
 /*some old parallax scroll code was taken from here*/
 
 .lightBlue{
