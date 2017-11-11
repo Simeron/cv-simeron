@@ -85,11 +85,18 @@
 }
 
 .contactInfo{
-    /*width: 80%;*/
+    width: 83%;
     /*margin: auto;*/
     text-align: center;
     padding-top: 4%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
 
+}
+
+.contactContext {
+    margin-right: 10%;
 }
 /*end of postion primary sections - content*/
 
@@ -115,6 +122,14 @@ nav{
 
 nav ul li:nth-child(7) a {
     border-right: none;    
+}
+
+#sidenav-overlay {
+    position: relative;
+}
+
+.side-nav a:hover {
+    color: #353535;
 }
 
 #logo{
@@ -161,7 +176,8 @@ a{
 }
 
 a:hover { 
-    background-color:#00ffff;
+    background-color:#543149; /* use to be #00ffff*/
+    color: #fff;
 }
 
 /*end of text links css*/
@@ -206,16 +222,38 @@ a:hover {
     display: block;
 }
 
+.contactContainer p {
+    display: block;
+    margin-left: -11px;
+}
+
 #social{
-    margin-left: 17%;
+    margin-left: 15%;
     margin-top: 5%;
+    display: flex
+}
+
+#social a {
+    display: flex;
+    width: 100%;
+}
+
+#social a:hover { 
+    background-color:transparent;
 }
 
 #social img{
-    width: 30px;
+    /*width: 30px;
     display: inline-block;
-    /*padding-top: 3vw;*/
-    padding-left: 3%;
+    padding-left: 3%;*/
+    width: 28px;
+    height: 28px;
+}
+
+#social a img:hover { 
+    background-color: #543149;
+    border: solid 1px #543149;
+    border-radius: 5px;
 }
 
 /*end of image css*/
@@ -499,23 +537,47 @@ Modules - reusable parts of our design
 }
 
 /*start of the media query*/
+@media screen and (max-width: 1169px) {
+    .cd-timeline-block h3 {
+        margin-left: 8%;
+    }
+    
+    i {
+        margin-left: -25%;
+        margin-top: -19%;
+    }
+
+    #cd-timeline a {
+        margin-left: 7%;
+    }
+
+    .contactInfo {
+        width: 100%;
+    }
+
+    .hovereffect .overlay {
+        margin-top: -10%;
+    }
+
+    .hovereffect .overlay h2 {
+        font-size: inherit;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .contactContext {
+        width: 100%;
+        margin-right: 0px;
+    }
+}
 
 @media screen and (max-width: 780px) {
-    /*body {
-        background-color: lightgreen rgba(255, 255, 255, 0.05);
-        
-    }*/
-
     .icon, .project{
         width: 49%;
     }
 }
 
 @media screen and (max-width: 580px) {
-    /*body {
-        background-color: lightgreen;
-    }*/
-
     .icon, .project{
         width: 100%;
     }
