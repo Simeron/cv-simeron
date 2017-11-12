@@ -207,13 +207,16 @@ a:hover {
 
 #profilePic{
   display: inline-block;
-  width: 350px;
-  height: 350px;
+  width: 265px; /*use to be 350px*/
+  height: 435px; /*use to be 350px*/
   border-radius: 50%;
   background-position: center;
   background-size:100% auto;
   background-repeat: no-repeat;
   padding-top: 1%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
 }
 
 .contactInfo img{
